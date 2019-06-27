@@ -3,5 +3,7 @@
 require 'core/bootstrap.php';
 
 
-require Router::load('routes.php')
+require Router::load('core/routes.php')
     ->direct(Request::uri());
+
+    
